@@ -367,5 +367,6 @@ describe("example to-do app", () => {
     cy.get('input[name="password"]').type("Test1234!@");
     cy.get('input[name="repeatPassword"]').type("Test1234!@");
     cy.get("button").contains("Register").should("not.be.disabled").click();
+    cy.get(".panel-layout").should("be.visible");
   });
 });
