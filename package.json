@@ -3,12 +3,14 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "defaultEnv": "cypress open --config-file cypress.config.js",
+    "supportedEnv": "cypress open --config-file cypress2.config.js"
   },
   "author": "",
   "license": "ISC",
   "description": "",
   "devDependencies": {
-    "cypress": "^14.3.3"
+    "cypress": "^14.4.1"
   }
 }
