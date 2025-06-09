@@ -4,6 +4,10 @@ module.exports = defineConfig({
   e2e: {
     baseUrl: "https://guest:welcome2qauto@qauto.forstudy.space/",
     video: true,
-    projectId: "vhjes7",
+    setupNodeEvents(on, config) {},
+    env: {
+      userEmail: "testuser1@furtune.com",
+      userPassword: "Test1234!",
+    },
   },
 });
